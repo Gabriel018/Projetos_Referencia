@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
     <title>@ViewData["Title"] - Prover_Web</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
@@ -10,12 +11,27 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
 
-  <a class="nav-link text-dark" asp-area="" asp-controller="Adms" asp-action="Index">Adm</a>
-  <a class="nav-link text-dark" asp-area="" asp-controller="Vendedors" asp-action="Index">Cliente</a>
-  <a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Index">Vendedor</a>              
+        <nav  class="navbar navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">Prover Style</a>
+          <a  asp-area="" asp-controller="Clientes" class="navbar-brand" asp-action="Index">Home</a>
+          <a  asp-area="" asp-controller="Clientes" class="navbar-brand" asp-action="Index">Quem Somos</a>
+          <a  asp-area="" asp-controller="Clientes" class="navbar-brand" asp-action="Index">Estilos</a>
+       
+          <div class="navbar navbar-dark bg-dark">
+           <a class="navbar-brand" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Registrar
+           </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+             <li><a class="dropdown-item" asp-controller="Clientes">Sou Cliente</a></li>
+             <li><a class="dropdown-item" asp-controller="Vendedors">Sou Vendedor</a></li>
+            <li><a class="dropdown-item" asp-controller="">Are de Administraçao</a></li>
+                  </ul>
+                </div>
+        <a  asp-area="" asp-controller="Clientes"class="navbar-brand" asp-action="Index">Login</a>    
         </nav>
+       
+
     </header>
     <div class="container">
         <main role="main" class="pb-3">

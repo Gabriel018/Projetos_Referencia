@@ -43,5 +43,40 @@ body {
 .Estilos{
     gap:30px;
     display:flex;
+    flex-direction:row;
     justify-content:center;
+}
+
+.formulario {
+ 
+    box-shadow: 10px 5px 5px black;
+    height: 500px;
+    width: 600px;
+    font-size: 20px;
+    background-color: darkorchid;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+.titulo {
+    font-weight: bold;
+}
+
+
+.formulario-list {
+    box-shadow: 10px 5px 5px black;
+    height: 700px;
+    width: 600px;
+    font-size: 20px;
+    background-color: darkorchid;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.navbar-brand:hover {
+    color:chartreuse;
 }

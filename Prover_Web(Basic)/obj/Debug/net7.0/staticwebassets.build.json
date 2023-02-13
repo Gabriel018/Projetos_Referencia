@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Fl1t86rdhzGRmR/f/Cy6U7iy583GoRc20rOpS5b4OAI=",
+  "Hash": "GS0X91lQMwnL9ZQMbLmTJuRYSVQ5ohQYOWpIQMmmO8E=",
   "Source": "Prover_Web",
   "BasePath": "_content/Prover_Web",
   "Mode": "Default",
@@ -119,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\img\\casual.jpg"
     },
     {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Personal_Style_Web\\Prover_Web(Basic)\\wwwroot\\img\\Casual01.jpg",
+      "SourceId": "Prover_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Personal_Style_Web\\Prover_Web(Basic)\\wwwroot\\",
+      "BasePath": "_content/Prover_Web",
+      "RelativePath": "img/Casual01.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Casual01.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Usuario\\Desktop\\Personal_Style_Web\\Prover_Web(Basic)\\wwwroot\\img\\classico.jpg",
       "SourceId": "Prover_Web",
       "SourceType": "Discovered",
@@ -151,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\colagem1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Personal_Style_Web\\Prover_Web(Basic)\\wwwroot\\img\\esportivo01.jpg",
+      "SourceId": "Prover_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Personal_Style_Web\\Prover_Web(Basic)\\wwwroot\\",
+      "BasePath": "_content/Prover_Web",
+      "RelativePath": "img/esportivo01.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\esportivo01.jpg"
     },
     {
       "Identity": "C:\\Users\\Usuario\\Desktop\\Personal_Style_Web\\Prover_Web(Basic)\\wwwroot\\img\\Estilo_masculino_e_descubra_qual__o_seu.jpg",

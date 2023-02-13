@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+    
     <title>@ViewData["Title"] - Prover_Web</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
@@ -23,9 +23,9 @@
                     Registrar
            </a>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-             <li><a class="dropdown-item" asp-controller="Clientes">Sou Cliente</a></li>
+             <li><a class="dropdown-item" asp-controller="Clientes"asp-action="Create">Sou Cliente</a></li>
              <li><a class="dropdown-item" asp-controller="Vendedors">Sou Vendedor</a></li>
-            <li><a class="dropdown-item" asp-controller="">Are de Administraçao</a></li>
+            <li><a class="dropdown-item" asp-controller="Adms"  asp-action="Create">Area de Administraçao</a></li>
                   </ul>
                 </div>
         <a  asp-area="" asp-controller="Clientes"class="navbar-brand" asp-action="Index">Login</a>    

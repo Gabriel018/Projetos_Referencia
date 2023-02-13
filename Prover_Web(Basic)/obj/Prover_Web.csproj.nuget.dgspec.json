@@ -69,6 +69,10 @@
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.5, )"
+            },
+            "jQuery.MaskedInput": {
+              "target": "Package",
+              "version": "[1.4.1, )"
             }
           },
           "imports": [

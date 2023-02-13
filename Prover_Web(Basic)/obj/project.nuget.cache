@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "uw8SdVhtn/ZUqG6ZRI0Yr9j9G6j4AGVB2kjAW8g8SyAru1DzOrm+2I2FlZiCIPs3zDQCfKuDCsgmlSMEMt8Lhg==",
+  "dgSpecHash": "H5jxu2R6Vz3ugohNF1GsHcEH3N2B0vVd9o2vA4Xj79ZoqCMnXAAE3jZfnU4uewam0f8VZ/Y8BZK/b6RW2rr1Yw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Duke\\Desktop\\Personal_Style_Web\\Prover_Web(Basic)\\Prover_Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Duke\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Duke\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Duke\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Duke\\.nuget\\packages\\jquery\\1.9.0\\jquery.1.9.0.nupkg.sha512",
+    "C:\\Users\\Duke\\.nuget\\packages\\jquery.maskedinput\\1.4.1\\jquery.maskedinput.1.4.1.nupkg.sha512",
     "C:\\Users\\Duke\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\Duke\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Duke\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",

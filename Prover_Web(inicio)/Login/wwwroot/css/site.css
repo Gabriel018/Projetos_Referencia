@@ -25,7 +25,7 @@ body {
 
 .container01{
 
-    gap: 40px;
+    gap: 30px;
     margin: 20px;
     display:flex;
     flex-direction: row;
@@ -57,6 +57,14 @@ body {
     display: flex;
     justify-content: center;
     justify-items: center;
+}
+
+.titulo01 {
+    font-weight: bold;
+ 
+
+span{
+    font-stretch: 700;
 }
 
 

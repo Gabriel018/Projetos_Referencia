@@ -12,41 +12,27 @@
 <body>
     <header>
 
-        <nav  class="navbar navbar-dark bg-dark" >
-          <a class="navbar-brand" href="#">Prover Style</a>
-          <a  asp-area="" asp-controller="Home" class="navbar-brand" asp-action="Index">Home</a>
-          <a  asp-area="" asp-controller="QuemSomos" class="navbar-brand" asp-action="Index">Quem Somos</a>
-          <a  asp-area="" asp-controller="Estilos" class="navbar-brand" asp-action="Index">Estilos</a>
-       
-          <div class="navbar navbar-dark bg-dark">
-           <a class="navbar-brand" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Prover Style</a>
+            <a asp-area="" asp-controller="Home" class="navbar-brand" asp-action="Index">Home</a>
+            <a asp-area="" asp-controller="QuemSomos" class="navbar-brand" asp-action="Index">Quem Somos</a>
+            <a asp-area="" asp-controller="Estilos" class="navbar-brand" asp-action="Index">Estilos</a>
+
+            <div class="navbar navbar-dark bg-dark">
+                <a class="navbar-brand" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     Registrar
-           </a>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-             <li><a class="dropdown-item" asp-controller="Clientes"asp-action="Create">Sou Cliente</a></li>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" asp-controller="Clientes" asp-action="Create">Sou Cliente</a></li>
                     <li><a class="dropdown-item" asp-controller="Vendedors" asp-action="Create">Sou Vendedor</a></li>
-            <li><a class="dropdown-item" asp-controller="Adms"  asp-action="Create">Area de Administraçao</a></li>
-                  </ul>
-                </div>
-        <a  asp-area="" asp-controller="Login"class="navbar-brand" asp-action="Index">Login</a>    
+                    <li><a class="dropdown-item" asp-controller="Adms" asp-action="Create">Area de Administraçao</a></li>
+                </ul>
+            </div>
+            <a asp-area="" asp-controller="Login" class="navbar-brand" asp-action="Index">Login</a>
         </nav>
-       
 
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - Prover_Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

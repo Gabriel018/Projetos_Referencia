@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K7NIfsD7ILd9A+pkwYZcCDSdEnv4soN2YZt3x3OBWMUpCE8Df0PFRsLxofUJvP0dGxlkaymQ7So9kq8Y1YRGbQ==",
+  "dgSpecHash": "NGiWrzKz23jg07HcTbqrHCISXPAgWyasCf1lOjr/WsLhjYPvKS/QvFGPobcWxCOM5FYg4guwg9OQ8nLSTABeZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Login\\Login\\Prover_Web(Inicio).csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Personal_Style_Web\\Prover_Web(inicio)\\Login\\Prover_Web(Inicio).csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

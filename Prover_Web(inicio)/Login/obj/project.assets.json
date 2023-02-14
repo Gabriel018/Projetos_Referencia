@@ -11061,11 +11061,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Login\\Login\\Prover_Web(Inicio).csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Personal_Style_Web\\Prover_Web(inicio)\\Login\\Prover_Web(Inicio).csproj",
       "projectName": "Prover_Web(Inicio)",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\Login\\Login\\Prover_Web(Inicio).csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Personal_Style_Web\\Prover_Web(inicio)\\Login\\Prover_Web(Inicio).csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\Login\\Login\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Personal_Style_Web\\Prover_Web(inicio)\\Login\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

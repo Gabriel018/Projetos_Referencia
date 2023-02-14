@@ -6,8 +6,9 @@
     "\\Login\\Data",
     "\\Login\\Models",
     "\\Login\\Views",
+    "\\Login\\Views\\Home",
     "\\Login\\Views\\Shared"
   ],
-  "SelectedNode": "\\Login\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\Login\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

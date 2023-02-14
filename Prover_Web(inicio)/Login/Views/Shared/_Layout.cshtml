@@ -26,12 +26,10 @@
                     <li><a class="dropdown-item" asp-controller="Vendedors" asp-action="Create">Sou Vendedor</a></li>
                     <li><a class="dropdown-item" asp-controller="Adms" asp-action="Create">Area de Administraçao</a></li>
                 </ul>
+                <partial name="_LoginPartial" />
             </div>
-         
-        </nav>
-
-                    <partial name="_LoginPartial" />                </div>
-            </div>
+           </nav>
+            
         </nav>
     </header>
     <div class="container">
@@ -41,9 +39,7 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - Login - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+        
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

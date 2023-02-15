@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Login.Data;
 using Prover_Web.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Login.Controllers
 {
+    [Authorize]
     public class ClientesController : Controller
     {
         private readonly ApplicationDbContext _context;

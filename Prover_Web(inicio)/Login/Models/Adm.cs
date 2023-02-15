@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Prover_Web.Models
 {
+
     public class Adm
     {
 

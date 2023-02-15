@@ -41,6 +41,12 @@ html {
     justify-content:center;
 }
 
+
+
+.card:hover{
+   width: 30rem;
+}
+
 .formulario {
  
     box-shadow: 10px 5px 5px 3px black;
@@ -95,7 +101,13 @@ body {
 }*/
 
 
-
+.whapp {
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
 body
 {
   background-color:thistle;

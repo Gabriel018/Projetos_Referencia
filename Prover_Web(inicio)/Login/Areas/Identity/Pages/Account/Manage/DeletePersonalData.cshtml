@@ -9,7 +9,7 @@
 
 <div class="alert alert-warning" role="alert">
     <p>
-        <strong>Deleting this data will permanently remove your account, and this cannot be recovered.</strong>
+        <strong>Sua conta sera deletada de forma permanente</strong>
     </p>
 </div>
 
@@ -19,12 +19,12 @@
         @if (Model.RequirePassword)
         {
             <div class="form-floating mb-3">
-                <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="Please enter your password." />
+                <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="Digite sua senha" />
                 <label asp-for="Input.Password" class="form-label"></label>
                 <span asp-validation-for="Input.Password" class="text-danger"></span>
             </div>
         }
-        <button class="w-100 btn btn-lg btn-danger" type="submit"> Deletar Conta</button>
+        <button class="w-100 btn btn-lg btn-dark" type="submit"> Deletar Conta</button>
     </form>
 </div>
 

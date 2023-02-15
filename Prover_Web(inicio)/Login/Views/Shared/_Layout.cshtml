@@ -14,7 +14,7 @@
 
         <nav class="navbar navbar-dark bg-dark mx-2">
             
-            <a class="navbar-brand" style="margin-left:20px"><img src="~/img/avanco-rapido.png" width="30" height="30"/>Prover Style</a>
+            <a class="navbar-brand" style="margin-left:30px"><img src="~/img/avanco-rapido.png" width="30" height="30"/>Prover Style</a>
             <a asp-area="" asp-controller="Home" class="navbar-brand" asp-action="Index">Home</a>
             <a asp-area="" asp-controller="QuemSomos" class="navbar-brand" asp-action="Index">Quem Somos</a>
             <a asp-area="" asp-controller="Estilos" class="navbar-brand" asp-action="Index">Estilos</a>
@@ -37,6 +37,10 @@
 
  
     <div class="container">
+        <div class="whapp">
+            <a class="whapp" href="https://api.whatsapp.com/send?phone=5521993049717&text=Texto%20aqui"><img src="img/whap.png" width="50" height="50" class="img_icon_whapp" alt=""></a>
+
+        </div>
         <main role="main" class="pb-3">
             @RenderBody()
         </main>

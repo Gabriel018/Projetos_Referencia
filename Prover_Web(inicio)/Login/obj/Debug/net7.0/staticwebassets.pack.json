@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\img\\moda-classico.jpg"
     },
     {
+      "Id": "C:\\Users\\Usuario\\Desktop\\Personal_Style_Web\\Prover_Web(inicio)\\Login\\wwwroot\\img\\whap.png",
+      "PackagePath": "staticwebassets\\img\\whap.png"
+    },
+    {
       "Id": "C:\\Users\\Usuario\\Desktop\\Personal_Style_Web\\Prover_Web(inicio)\\Login\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

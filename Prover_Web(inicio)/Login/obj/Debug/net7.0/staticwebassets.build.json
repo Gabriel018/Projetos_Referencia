@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DJwmPzBFDGdG72lVBMtrAECpezyEbm9A3LXOOaW/Y8Q=",
+  "Hash": "3f/BEIxfh7dsygF8enwdnZdclRypMJH1AkOrY4FsioQ=",
   "Source": "Prover_Web(Inicio)",
   "BasePath": "_content/Prover_Web(Inicio)",
   "Mode": "Default",
@@ -1273,6 +1273,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\moda-classico.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Personal_Style_Web\\Prover_Web(inicio)\\Login\\wwwroot\\img\\whap.png",
+      "SourceId": "Prover_Web(Inicio)",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Personal_Style_Web\\Prover_Web(inicio)\\Login\\wwwroot\\",
+      "BasePath": "_content/Prover_Web(Inicio)",
+      "RelativePath": "img/whap.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\whap.png"
     },
     {
       "Identity": "C:\\Users\\Usuario\\Desktop\\Personal_Style_Web\\Prover_Web(inicio)\\Login\\wwwroot\\js\\site.js",

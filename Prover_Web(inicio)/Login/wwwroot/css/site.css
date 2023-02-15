@@ -17,11 +17,11 @@ html {
   min-height: 100%;
 }
 
-body {
+/*body {
 
   background-color:mediumpurple;  
   margin-bottom: 60px;
-}
+}*/
 
 .container01{
 
@@ -91,3 +91,4 @@ span{
     background-color:blueviolet;
     font-size: 12px;
 }
+

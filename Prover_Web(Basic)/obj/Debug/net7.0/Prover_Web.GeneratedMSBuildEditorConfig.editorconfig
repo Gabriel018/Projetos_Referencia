@@ -9,113 +9,113 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Prover_Web
 build_property.RootNamespace = Prover_Web
-build_property.ProjectDir = C:\Users\Usuario\Desktop\Personal_Style_Web\Prover_Web(Basic)\
+build_property.ProjectDir = C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(Basic)\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Usuario\Desktop\Personal_Style_Web\Prover_Web(Basic)
+build_property.MSBuildProjectDirectory = C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(Basic)
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Adms/Create.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Adms/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Adms/Delete.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Adms/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Adms/Details.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Adms/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Adms/Edit.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Adms/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Adms/Index.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Adms/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Clientes/Create.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Clientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Clientes/Delete.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Clientes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Clientes/Details.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Clientes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Clientes/Edit.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Clientes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Clientes/Index.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Clientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Estilos/Index.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Estilos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0aWxvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Estilos/Privacy.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Estilos/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0aWxvc1xQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Home/Index.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Login/Index.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/QuemSomos/Index.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/QuemSomos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlbVNvbW9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/QuemSomos/Privacy.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/QuemSomos/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlbVNvbW9zXFByaXZhY3kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Shared/Error.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Vendedors/Create.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Vendedors/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3JzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Vendedors/Delete.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Vendedors/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3JzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Vendedors/Details.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Vendedors/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3JzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Vendedors/Edit.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Vendedors/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3JzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Vendedors/Index.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Vendedors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3JzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/_ViewImports.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/_ViewStart.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Shared/_Layout.cshtml]
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(Basic)/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-uo1hk1aj1s

@@ -7,8 +7,10 @@
     "\\Login\\Models",
     "\\Login\\Views",
     "\\Login\\Views\\Home",
-    "\\Login\\Views\\Shared"
+    "\\Login\\Views\\Shared",
+    "\\Login\\wwwroot",
+    "\\Login\\wwwroot\\js"
   ],
-  "SelectedNode": "\\Login\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\Login\\wwwroot\\js\\site.js",
   "PreviewInSolutionExplorer": false
 }

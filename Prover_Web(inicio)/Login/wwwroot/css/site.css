@@ -26,7 +26,6 @@ body {
 .container01{
 
     gap: 30px;
-    margin: 20px;
     display:flex;
     flex-direction: row;
     justify-content:center;
@@ -41,7 +40,7 @@ body {
 }
 
 .Estilos{
-    gap:30px;
+    gap:20px;
     display:flex;
     flex-direction:row;
     justify-content:center;
@@ -87,4 +86,8 @@ span{
 
 .navbar-brand:hover {
     color:chartreuse;
+}
+.link_txt{
+    background-color:blueviolet;
+    font-size: 12px;
 }

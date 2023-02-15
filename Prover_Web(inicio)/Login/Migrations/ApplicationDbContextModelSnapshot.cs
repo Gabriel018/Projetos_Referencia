@@ -285,7 +285,7 @@ namespace Login.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Clientes");
+                    b.ToTable("Cliente");
                 });
 
             modelBuilder.Entity("Prover_Web.Models.Vendedor", b =>

@@ -599,3 +599,11 @@ C:\Users\Usuario\Desktop\Personal_Style_Web\Prover_Web(Basic)\bin\Debug\net7.0\M
 C:\Users\Usuario\Desktop\Personal_Style_Web\Prover_Web(Basic)\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Usuario\Desktop\Personal_Style_Web\Prover_Web(Basic)\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Users\Usuario\Desktop\Personal_Style_Web\Prover_Web(Basic)\obj\Debug\net7.0\Prover_Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(Basic)\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(Basic)\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(Basic)\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(Basic)\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(Basic)\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(Basic)\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(Basic)\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(Basic)\obj\Debug\net7.0\Prover_Web.MvcApplicationPartsAssemblyInfo.cs

@@ -6,25 +6,27 @@
 
 
 
-<div class="row">
-    <div class="col-md-4">
+<div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+         
         <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
-            <h2 class="navbar-brand">Criar nova Conta</h2>
+            <h1 class="navbar-brand">Criar novo Login</h1>
             <hr />
             <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="diego@example.com" />
+            <div class="form-group">
                 <label asp-for="Input.Email">Email</label>
+                    <input asp-for="Input.Email" class="form-control mt-3" autocomplete="username" aria-required="true" placeholder="diego@example.com" />
                 <span asp-validation-for="Input.Email" class="text-danger"></span>
             </div>
-            <div class="form-floating mb-3">
+            <div class="form-group">
+                <label asp-for="Input.Password">Senha</label>
                 <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="senha" />
-                <label asp-for="Input.Password">Password</label>
                 <span asp-validation-for="Input.Password" class="text-danger"></span>
             </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="=Senha" />
+            <div class="form-group">
                 <label asp-for="Input.ConfirmPassword">Confirmar senha</label>
+                    <input asp-for="Input.ConfirmPassword" class="form-control mt-3" autocomplete="new-password" aria-required="true" placeholder="Senha" />
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
             </div>
             <button id="registerSubmit" type="submit" class="btn btn-dark">Registrar</button>

@@ -17,11 +17,6 @@ html {
   min-height: 100%;
 }
 
-/*body {
-
-  background-color:mediumpurple;  
-  margin-bottom: 60px;
-}*/
 
 .container01{
 
@@ -48,11 +43,11 @@ html {
 
 .formulario {
  
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 5px 3px black;
     height: 500px;
     width: 600px;
-    font-size: 20px;
-    background-color: darkorchid;
+    font-size: 22px;
+    background-color:dimgrey;
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -60,12 +55,7 @@ html {
 
 .titulo01 {
     font-weight: bold;
- 
-
-span{
-    font-stretch: 700;
 }
-
 
 
 .titulo {
@@ -88,7 +78,25 @@ span{
     color:chartreuse;
 }
 .link_txt{
-    background-color:blueviolet;
+
     font-size: 12px;
 }
 
+container-fluid {
+    box-shadow: 10px 5px 5px black;
+}
+
+/*
+body {
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.45787821964723385) 0%, rgba(0,0,0,0.5251051104035365) 35%), url("https://images.pexels.com/photos/10854148/pexels-photo-10854148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+
+
+body
+{
+  background-color:thistle;
+}

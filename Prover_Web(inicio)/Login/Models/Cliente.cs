@@ -17,7 +17,7 @@ namespace Prover_Web.Models
         public string Cpf { get; set; }
         [Required(ErrorMessage = "Telefone requerido")]
         [RegularExpression(@"\d+", ErrorMessage = "Somente números são permitidos")]
-        [MinLength(11, ErrorMessage = "CPF precisa possuir 11 numeros"), MaxLength(11, ErrorMessage = "CPF precisa possuir 11 numeros")]
+        [MinLength(10, ErrorMessage = "Telefone precisa possuir 10 numeros"), MaxLength(11, ErrorMessage = "CPF precisa possuir 11 numeros")]
         public string Telefone { get; set; }
         [Required(ErrorMessage = "Descriçao requerido")]
         public string Descricao { get; set; }

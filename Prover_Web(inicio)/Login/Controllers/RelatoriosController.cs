@@ -9,23 +9,24 @@ namespace Login.Controllers
 {
     public class RelatoriosController : Controller
     {
-        private readonly ILogger<RelatoriosController> _logger;
-        private readonly ApplicationDbContext _context;
-
-        public RelatoriosController(ILogger<RelatoriosController> logger, ApplicationDbContext context)
+        public RelatoriosController(ApplicationDbContext context)
         {
-            _logger = logger;
             _context = context;
         }
 
+
+
+        private readonly ApplicationDbContext _context;
+
+        
         public IActionResult Index()
         {
-
-            var clientes = from c in _context.Cliente select c;
+            var clientes = from c in _context.Cliente
+                           join v in _context.Vendedor on c.Categoria equals v.Categoria
+                           select new ClienteVendedor { Cliente = c, Vendedor = v };
 
             return View(clientes.ToList());
         }
-
 
     }
 }

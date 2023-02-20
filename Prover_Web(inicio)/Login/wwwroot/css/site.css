@@ -66,6 +66,15 @@ html {
 }
 
 
+.tituloAdm{
+       display:flex;
+      align-items:center;
+      justify-content:center;
+      align-content:center
+      
+}
+
+
 .formulario-list {
     box-shadow: 10px 5px 5px black;
     height: 700px;
@@ -108,4 +117,29 @@ body {
 body
 {
   background-color:thistle;
+}
+
+
+.Menu_Adm{
+    padding-top: 60px;
+    padding-right: 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+     
+}
+
+
+.Container_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.Menu_Cliente{
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }

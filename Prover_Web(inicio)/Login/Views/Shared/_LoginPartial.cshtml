@@ -2,17 +2,17 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
-<ul class="navbar-nav mx-2v">
+<ul class="navbar">
     @if (SignInManager.IsSignedIn(User))
     {
-        <li class="navbar-brand">
-                <a class="text-secondary-emphasis" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Bem Vindo @User.Identity?.Name!</a>
-        </li>
-        <li class="nav-item">
+        <div class="navbar-brand">
+           <p class="link-warning fs-6" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Bem Vindo @User.Identity?.Name!</p>
+        </div>
+        <div class="nav-item">
             <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
                     <button type="submit" class="text-white bg-dark">Logout</button>
             </form>
-        </li>
+        </div>
     }
     else
     {

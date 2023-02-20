@@ -28,9 +28,6 @@ namespace Prover_Web.Models
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Rendimento { get; set; }
 
-        [NotMapped]
-        public Vendedor vendedor { get; set; }
-
-
+  
     }
 }

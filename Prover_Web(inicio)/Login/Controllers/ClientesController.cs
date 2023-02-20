@@ -53,6 +53,13 @@ namespace Login.Controllers
             return View();
         }
 
+
+
+        public IActionResult Math()
+        {
+            return View();
+        }
+
         // POST: Clientes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.

@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Prover_Web.Models.ClienteVendedor>
+
+<h1 style="align-items:center">Lista de Clientes e Vendedores</h1>
+
+<form asp-controller="Relatorios" asp-action="PesquisarPorNome">
+    <input type="text" name="nome" placeholder="Digite o nome aqui">
+    <input type="submit" value="Pesquisar">
+</form>
+
+<tbody>
+    @foreach (var item in Model)
+    {
+                    <tr>
+                        <td>@item.Cliente.Nome</td>
+                        <td>@item.Vendedor.Nome</td>
+                        <td>@item.Vendedor.Categoria</td>
+                    </tr>
+    }
+    </tbody>

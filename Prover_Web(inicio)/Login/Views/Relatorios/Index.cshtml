@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Prover_Web.Models.ClienteVendedor>
+
+
+<table class="table table-dark table-striped">
+    <thead>
+        <tr class="fs-4">
+            <th>Cliente</th>
+            <th>Vendedor</th>
+            <th>Categoria</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+                <tr>
+                    <td>@item.Cliente.Nome</td>
+                    <td>@item.Vendedor.Nome</td>
+                    <td>@item.Vendedor.Categoria</td>
+                </tr>
+        }
+    </tbody>
+</table>

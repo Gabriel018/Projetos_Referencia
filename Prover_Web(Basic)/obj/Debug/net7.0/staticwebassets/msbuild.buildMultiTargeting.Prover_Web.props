@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Prover_Web.props" />
+</Project>

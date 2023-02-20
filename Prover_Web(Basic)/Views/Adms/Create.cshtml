@@ -1,0 +1,38 @@
+﻿@model Prover_Web.Models.Adm
+
+
+
+
+<h1>Pagina de cadastro</h1>
+
+<h4>Novo Cadastro Administrador</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cpf" class="control-label"></label>
+                <input asp-for="Cpf"  class="form-control"/>
+                <span asp-validation-for="Cpf" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Telefone" class="control-label"></label>
+                <input asp-for="Telefone" oninput="telefone()" id="tel" type="text"   class="form-control" />
+                <span asp-validation-for="Telefone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Enviar" class="btn btn-dark" />
+            </div>
+        </form>
+        
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

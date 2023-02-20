@@ -1,0 +1,49 @@
+﻿@model Prover_Web.Models.Vendedor
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h3>Detetar usuario</h3>
+<div>
+    <h4>Vendedor</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cpf)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cpf)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Categoria)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Categoria)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-dark" /> |
+        <a asp-action="Index">Voltar</a>
+    </form>
+</div>

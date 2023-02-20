@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Login</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Login.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+
+
+        <nav class="navbar navbar-dark bg-dark mx-2">
+            
+            <a class="navbar-brand" style="margin-left:30px"><img src="~/img/avanco-rapido.png" width="30" height="30"/>Prover Style</a>
+            <a asp-area="" asp-controller="Home" class="navbar-brand" asp-action="Index">Home</a>
+            <a asp-area="" asp-controller="QuemSomos" class="navbar-brand" asp-action="Index">Quem Somos</a>
+            <a asp-area="" asp-controller="Estilos" class="navbar-brand" asp-action="Index">Estilos</a>
+            <a asp-area="" asp-controller="Planos" class="navbar-brand" asp-action="Index">planos</a>
+
+            <div class="navbar navbar-dark bg-dark">
+                <a class="navbar-brand" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Meu Menu
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" asp-controller="Clientes" asp-action="Menu">Sou Cliente</a></li>
+                    <li><a class="dropdown-item" asp-controller="Home" asp-action="Index">Dicas</a></li>
+                    <li><a class="dropdown-item" asp-controller="Home" asp-action="Index">Novidades</a></li>
+                </ul>
+                <a asp-area="" asp-controller="Menu_Adm" class="navbar-brand" asp-action="Index">Admin</a>
+                <partial name="_LoginPartial" />
+            </div>
+        </nav>
+
+        </nav>
+    </header>
+
+ 
+    <div class="container">
+        <div class="whapp">
+            <a class="whapp" href="https://api.whatsapp.com/send?phone=5521993049717&text=Texto%20aqui"><img src="img/whap.png" width="60" height="60" class="img_icon_whapp" alt=""></a>
+
+        </div>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

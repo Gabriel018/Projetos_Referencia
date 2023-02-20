@@ -14,7 +14,10 @@
     }
     <li class="nav-item"><a class="nav-link @ManageNavPages.TwoFactorAuthenticationNavClass(ViewContext)" id="two-factor" asp-page="./TwoFactorAuthentication">Two-factor authentication</a></li>
     <li class="nav-item"><a class="nav-link @ManageNavPages.PersonalDataNavClass(ViewContext)" id="personal-data" asp-page="./PersonalData">Personal data</a></li>
-    <li class="nav-item"><a class="nav-link" asp-controller="Relatorios">Relatorios</a></li>
+    <li class="nav-item"><a class="nav-link" asp-controller="Relatorios" asp-action="Index">Relatorios</a></li>
+    <li class="nav-item"><a class="nav-link" asp-controller="Clientes"  asp-action="Index">Clientes</a></li>
+    <li class="nav-item"><a class="nav-link" asp-controller="Vendedors" asp-action="Index">Vendedores</a></li>
+    <li class="nav-item"><a class="nav-link" asp-controller="Adms" asp-action="Index">Administradores</a></li>
 
 
 </ul>

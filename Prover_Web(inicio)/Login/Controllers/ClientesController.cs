@@ -21,6 +21,12 @@ namespace Login.Controllers
             _context = context;
         }
 
+        //Menu
+        public IActionResult Menu()
+        {
+            return View();
+        }
+
         // GET: Clientes
         public async Task<IActionResult> Index()
         {
@@ -49,13 +55,6 @@ namespace Login.Controllers
 
         // GET: Clientes/Create
         public IActionResult Create()
-        {
-            return View();
-        }
-
-
-
-        public IActionResult Math()
         {
             return View();
         }

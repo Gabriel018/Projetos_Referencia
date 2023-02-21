@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d+Vf4IfPVbjqm8EixmhKh/NeEDSAp77ujMky8azey6Y=",
+  "Hash": "g11xSW5YQdLx7V4tLaNOc9SizpyrB9EvufPG7lpnsnk=",
   "Source": "Prover_Web(Inicio)",
   "BasePath": "_content/Prover_Web(Inicio)",
   "Mode": "Default",
@@ -1273,6 +1273,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\moda-classico.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Duke\\Desktop\\Personal_Style_Web\\Prover_Web(inicio)\\Login\\wwwroot\\img\\Thumbs.db",
+      "SourceId": "Prover_Web(Inicio)",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Duke\\Desktop\\Personal_Style_Web\\Prover_Web(inicio)\\Login\\wwwroot\\",
+      "BasePath": "_content/Prover_Web(Inicio)",
+      "RelativePath": "img/Thumbs.db",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Thumbs.db"
     },
     {
       "Identity": "C:\\Users\\Duke\\Desktop\\Personal_Style_Web\\Prover_Web(inicio)\\Login\\wwwroot\\img\\whap.png",

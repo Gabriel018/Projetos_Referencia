@@ -10,6 +10,6 @@
     "\\Login\\wwwroot",
     "\\Login\\wwwroot\\js"
   ],
-  "SelectedNode": "\\Prover_Web(inicio).sln",
+  "SelectedNode": "\\Login\\Views\\Clientes\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Login.styles.css" asp-append-version="true" />
+
 </head>
 <body>
     <header>
 
+<div class="Container">
 
-        <nav class="navbar navbar-dark bg-dark mx-2">
-            
+
+    <nav class="navbar navbar-dark bg-dark">
+
             <a class="navbar-brand" style="margin-left:30px"><img src="~/img/avanco-rapido.png" width="30" height="30"/>Prover Style</a>
             <a asp-area="" asp-controller="Home" class="navbar-brand" asp-action="Index">Home</a>
             <a asp-area="" asp-controller="QuemSomos" class="navbar-brand" asp-action="Index">Quem Somos</a>
@@ -37,13 +40,16 @@
         </nav>
     </header>
 
+
+</div>
+        
  
     <div class="container">
         <div class="whapp">
             <a class="whapp" href="https://api.whatsapp.com/send?phone=5521993049717&text=Texto%20aqui"><img src="img/whap.png" width="60" height="60" class="img_icon_whapp" alt=""></a>
 
         </div>
-        <main role="main" class="pb-3">
+        <main role="main" class="pb-5">
             @RenderBody()
         </main>
     </div>
@@ -54,5 +60,6 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>

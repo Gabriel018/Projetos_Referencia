@@ -1,18 +1,18 @@
 ﻿@model IEnumerable<Prover_Web.Models.Cliente>
 
-    @{
-    ViewData["Title"] = "Index";
-    }
+@{
+	ViewData["Title"] = "Index";
+}
 
-    <div class="Container_menu">
+	<div class="Container_menu">
 
 
-        <div class="TituloAdm">
-            <h1>Menu de cliente</h1>
-            <h2 class="navbar-brand link-primary"> Bem Vindo @User.Identity?.Name</h2 >
+		<div class="TituloAdm">
+			<h1>Menu de cliente</h1>
+			<h2 class="navbar-brand link-primary"> Bem Vindo @User.Identity?.Name</h2 >
 
-                 <a class="btn btn-secondary" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Configuraçoes</a>
-                 <a class="btn btn-secondary" asp-controller="Clientes" asp-action="Create">Cadastrar</a>
-                <a class="btn btn-secondary"  asp-controller="Clientes" asp-action="PesquisarPorNome">Verifique seu Math</a>
-        </div>
-    </div>
+				 <a class="btn btn-secondary" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Configuraçoes</a>
+				 <a class="btn btn-secondary" asp-controller="Clientes" asp-action="Create">Cadastrar</a>
+				<a class="btn btn-secondary"  asp-controller="Relatorios" asp-action="PesquisarPorNome">Verifique seu Math</a>
+		</div>
+	</div>

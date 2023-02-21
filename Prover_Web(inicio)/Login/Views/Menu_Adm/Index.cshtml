@@ -1,18 +1,18 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+	ViewData["Title"] = "Home Page";
 }
 
 
 <div class="Container_menu">
 
 
-     <div class="TituloAdm">
-     <h1>Menu de Administraçao geral</h1>
-      </div>
+	 <div class="TituloAdm">
+	 <h1>Menu de Administraçao geral</h1>
+	  </div>
 
-           <a class="text-secondary-emphasis fs-5" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Bem Vindo @User.Identity?.Name!</a>
+	<a class="text-secondary-emphasis fs-5" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Bem Vindo @User.Identity?.Name!</a>
 
-   
+
    <div class="Menu_Adm" >
   <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
   <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
@@ -23,10 +23,14 @@
 
   <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
   <a class="btn btn-outline-dark" asp-controller="Vendedors" asp-action="Index" for="btncheck3">Vendedores</a>
+
+  <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+  <a class="btn btn-outline-dark" asp-controller="Adms" asp-action="Index" for="btncheck3">Administradores</a>
+
 </div>
 
 
 </div
 
 </div>
-  
+

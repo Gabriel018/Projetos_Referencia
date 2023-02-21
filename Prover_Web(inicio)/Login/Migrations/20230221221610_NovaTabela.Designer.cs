@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Login.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230214174037_tabelas")]
-    partial class tabelas
+    [Migration("20230221221610_NovaTabela")]
+    partial class NovaTabela
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -267,8 +267,7 @@ namespace Login.Migrations
 
                     b.Property<string>("Cpf")
                         .IsRequired()
-                        .HasMaxLength(11)
-                        .HasColumnType("nvarchar(11)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Descricao")
                         .IsRequired()
@@ -279,16 +278,15 @@ namespace Login.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Rendimento")
-                        .HasColumnType("decimal(18, 2)");
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Telefone")
                         .IsRequired()
-                        .HasMaxLength(11)
-                        .HasColumnType("nvarchar(11)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Clientes");
+                    b.ToTable("Cliente");
                 });
 
             modelBuilder.Entity("Prover_Web.Models.Vendedor", b =>

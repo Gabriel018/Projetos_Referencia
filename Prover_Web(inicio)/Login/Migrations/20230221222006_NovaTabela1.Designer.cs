@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Login.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230215001941_tabela-login")]
-    partial class tabelalogin
+    [Migration("20230221222006_NovaTabela1")]
+    partial class NovaTabela1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -267,8 +267,7 @@ namespace Login.Migrations
 
                     b.Property<string>("Cpf")
                         .IsRequired()
-                        .HasMaxLength(11)
-                        .HasColumnType("nvarchar(11)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Descricao")
                         .IsRequired()
@@ -278,13 +277,13 @@ namespace Login.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("Rendimento")
-                        .HasColumnType("decimal(18, 2)");
+                    b.Property<string>("Rendimento")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Telefone")
                         .IsRequired()
-                        .HasMaxLength(11)
-                        .HasColumnType("nvarchar(11)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

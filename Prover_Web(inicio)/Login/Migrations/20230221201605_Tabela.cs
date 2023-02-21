@@ -5,7 +5,7 @@
 namespace Login.Migrations
 {
     /// <inheritdoc />
-    public partial class tabelas : Migration
+    public partial class Tabela : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -26,21 +26,21 @@ namespace Login.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Clientes",
+                name: "Cliente",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Cpf = table.Column<string>(type: "nvarchar(11)", maxLength: 11, nullable: false),
-                    Telefone = table.Column<string>(type: "nvarchar(11)", maxLength: 11, nullable: false),
+                    Cpf = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Telefone = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Descricao = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Categoria = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Rendimento = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Clientes", x => x.Id);
+                    table.PrimaryKey("PK_Cliente", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -68,7 +68,7 @@ namespace Login.Migrations
                 name: "Adm");
 
             migrationBuilder.DropTable(
-                name: "Clientes");
+                name: "Cliente");
 
             migrationBuilder.DropTable(
                 name: "Vendedor");

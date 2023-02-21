@@ -14,11 +14,11 @@ namespace Prover_Web.Models
         public string Nome { get; set; }
         [Required(ErrorMessage = "CPF requerido")]
         [MinLength(11, ErrorMessage = "CPF precisa possuir 11 numeros"), MaxLength(11, ErrorMessage = "CPF precisa possuir 11 numeros")]
-        [RegularExpression(@"\d+", ErrorMessage = "Somente números são permitidos")]
+        //[RegularExpression(@"\d+", ErrorMessage = "Somente números são permitidos")]
         public string Cpf { get; set; }
         [Required(ErrorMessage = "Telefone requerido")]
         [MinLength(10, ErrorMessage = "Telefone precisa possuir 11 numeros"), MaxLength(11, ErrorMessage = "Telefone precisa possuir 11 numeros")]
-        [RegularExpression(@"\d+", ErrorMessage = "Somente números são permitidos")]
+        //[RegularExpression(@"\d+", ErrorMessage = "Somente números são permitidos")]
         public string Telefone { get; set; }
 
         [Required(ErrorMessage = "Descricao requerida")]

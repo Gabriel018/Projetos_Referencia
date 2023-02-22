@@ -128,16 +128,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(inicio)/Login/Views/Clientes/EditarPorNome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdGFyUG9yTm9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(inicio)/Login/Views/Clientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(inicio)/Login/Views/Clientes/Menu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcTWVudS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(inicio)/Login/Views/Clientes/PesquisarPorNome.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcUGVzcXVpc2FyUG9yTm9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(inicio)/Login/Views/Estilos/Index.cshtml]
@@ -170,6 +170,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(inicio)/Login/Views/Relatorios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(inicio)/Login/Views/Relatorios/PesquisarPorMath.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvc1xQZXNxdWlzYXJQb3JNYXRoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Duke/Desktop/Personal_Style_Web/Prover_Web(inicio)/Login/Views/Relatorios/PesquisarPorNome.cshtml]

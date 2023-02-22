@@ -847,3 +847,9 @@ C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\obj\Debug\net7
 C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\obj\Debug\net7.0\Prover_Web(Inicio).csproj.CopyComplete
 C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\obj\Debug\net7.0\Prover_Web(Inicio).genruntimeconfig.cache
 C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\obj\Debug\net7.0\ref\Prover_Web(Inicio).dll
+C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\bin\Debug\net7.0\IBM.Cloud.SDK.Core.dll
+C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\bin\Debug\net7.0\IBM.Watson.Assistant.v2.dll
+C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\bin\Debug\net7.0\IBM.Watson.Common.dll
+C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\bin\Debug\net7.0\JsonSubTypes.dll
+C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\bin\Debug\net7.0\JWT.dll
+C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\bin\Debug\net7.0\System.Net.Http.Formatting.dll

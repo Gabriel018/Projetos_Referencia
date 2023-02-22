@@ -20,20 +20,26 @@ namespace Login.Controllers
         {
             _context = context;
         }
-        public IActionResult PesquisarPorNome(string nome)
-        {
-            var clientes = from c in _context.Cliente
-                           join v in _context.Vendedor on c.Categoria equals v.Categoria
-                           where c.Nome.Contains(nome)
-                           select new ClienteVendedor { Cliente = c, Vendedor = v };
 
-            return View(clientes.ToList());
-        }
-        //Menu
-        public IActionResult Menu()
+		public IActionResult EditarPorNome(string nome)
+		{
+
+
+            var cliente = from c in _context.Cliente
+                          where c.Nome == nome
+                          select c;
+			return View(cliente.ToList());
+		}
+
+
+		//Menu
+		public IActionResult Menu()
         {
+            
+
             return View();
-        }
+			
+		}
 
         // GET: Clientes
         public async Task<IActionResult> Index()

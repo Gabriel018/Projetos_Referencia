@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Prover_Web.Models.Cliente>
+
+<h3 style="align-items:center">Pesquisa d ecliente</h3>
+
+<form asp-controller="Clientes" asp-action="EditarPorNome">
+    <input type="text" name="nome" placeholder="Digite seu nome ">
+    <input class="btn btn-dark" type="submit" value="Pesquisar">
+</form>
+<br>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+  <tbody>
+            @foreach (var item in Model)
+            {
+                        <tr>
+                            <td>@item.Nome</td>
+                            <td>@item.Cpf</td>
+                            <td>@item.Telefone</td> 
+                            <td>@item.Descricao</td>
+                            <td>@item.Categoria</td>
+                            <td>@item.Rendimento</td>
+                            <td><a asp-action="Edit" asp-route-id="@item.Id">Editar</a></td>
+                        </tr>
+            }
+    </tbody>

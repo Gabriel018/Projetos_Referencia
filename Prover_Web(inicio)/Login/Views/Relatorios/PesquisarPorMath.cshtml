@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Prover_Web.Models.ClienteVendedor>
+
+<h3 style="align-items:center">Personal Styles que combinam com voce</h3>
+
+<form asp-controller="Relatorios" asp-action="PesquisarPorNome">
+    <input type="text" name="nome" placeholder="Digite seu nome ">
+    <input class="btn btn-dark" type="submit" value="Pesquisar">
+</form>
+<br>
+<table class="table table-dark table-striped">
+    <thead>
+        <tr class="fs-5">
+            <th>Vendedor</th>
+            <th>Esperiencia</th>
+            <th>Perfil</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+                    <tr>
+                           
+                        <td>@item.Vendedor.Nome</td>
+                        <td>@item.Vendedor.Descricao</td>
+                         <td><a class="btn btn-success" href="@Url.Action("Details", "Vendedors", new {id = item.Vendedor.Id})"></a></td>
+                    </tr>
+        }
+    </tbody>
+</table>

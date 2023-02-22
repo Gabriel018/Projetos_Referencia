@@ -1,4 +1,5 @@
-﻿using Login.Data;
+﻿using IBM.Cloud.SDK.Core.Http;
+using Login.Data;
 using Login.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -18,7 +19,20 @@ namespace Login.Controllers
 
         private readonly ApplicationDbContext _context;
 
-        public IActionResult PesquisarPorNome(string nome)
+
+		public IActionResult PesquisarPorNome(string nome)
+		{
+
+			var cliente = from c in _context.Cliente
+						  where c.Nome == nome
+						  select c;
+			return View(cliente.ToList());
+		}
+
+
+
+
+		public IActionResult PesquisarPorMach(string nome)
         {
             var clientes = from c in _context.Cliente
                            join v in _context.Vendedor on c.Categoria equals v.Categoria

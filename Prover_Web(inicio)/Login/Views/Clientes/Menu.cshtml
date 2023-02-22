@@ -6,15 +6,15 @@
 
 	<div class="Container_menu">
 
-
 		<div class="TituloAdm">
 			<h1>Menu de cliente</h1>
 			<h2 class="navbar-brand link-primary"> Bem Vindo @User.Identity?.Name</h2 >
+				<div class="nav flex-column"> 
+				 <a class="btn btn-dark  fs-5" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Configuraçoes</a>
+				 <br>
+				 <a class="btn btn-dark fs-5" asp-controller="Clientes" asp-action="Create">Cadastrar</a>
+				<br>
+				 <a class="btn btn-dark  fs-5"  asp-controller="Relatorios" asp-action="PesquisarPorNome">Verifique seu Math</a>
 
-				 <a class="btn btn-secondary" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Configuraçoes</a>
-				 <a class="btn btn-secondary" asp-controller="Clientes" asp-action="Create">Cadastrar</a>
-			   	<a class="btn btn-secondary"  asp-controller="Relatorios" asp-action="PesquisarPorNome">Verifique seu Math</a>
-		
-			
 			</div>
 	</div>

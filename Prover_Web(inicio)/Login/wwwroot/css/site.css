@@ -130,12 +130,19 @@ body
      
 }
 
-
-.Container_menu {
+.Container_menu_Admin {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction:column;
+    flex-direction: column;
+}
+
+
+.Container_menu {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
 }
 
 .Menu_Cliente{

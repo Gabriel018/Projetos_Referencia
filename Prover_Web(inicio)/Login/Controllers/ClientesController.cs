@@ -21,7 +21,8 @@ namespace Login.Controllers
             _context = context;
         }
 
-		public IActionResult EditarPorNome(string nome)
+ 
+        public IActionResult EditarPorNome(string nome)
 		{
 
 
@@ -31,9 +32,25 @@ namespace Login.Controllers
 			return View(cliente.ToList());
 		}
 
+        public async Task<IActionResult> Editar(int? id)
+        {
+            if (id == null || _context.Cliente == null)
+            {
+                return NotFound();
+            }
 
-		//Menu
-		public IActionResult Menu()
+            var cliente = await _context.Cliente.FindAsync(id);
+            if (cliente == null)
+            {
+                return NotFound();
+            }
+            return View(cliente);
+        }
+
+
+
+        //Menu
+        public IActionResult Menu()
         {
             
 
@@ -139,6 +156,43 @@ namespace Login.Controllers
             }
             return View(cliente);
         }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Editar(int id, [Bind("Id,Nome,Cpf,Telefone,Descricao,Categoria,Rendimento")] Cliente cliente)
+        {
+            if (id != cliente.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(cliente);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!ClienteExists(cliente.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Menu));
+            }
+            return View(cliente);
+        }
+
+
+
+
 
         // GET: Clientes/Delete/5
         public async Task<IActionResult> Delete(int? id)

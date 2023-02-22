@@ -30,9 +30,7 @@ namespace Login.Controllers
 		}
 
 
-
-
-		public IActionResult PesquisarPorMach(string nome)
+		public IActionResult PesquisarPorMath(string nome)
         {
             var clientes = from c in _context.Cliente
                            join v in _context.Vendedor on c.Categoria equals v.Categoria

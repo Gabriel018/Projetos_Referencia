@@ -20,13 +20,24 @@ namespace Login.Controllers
         private readonly ApplicationDbContext _context;
 
 
-		public IActionResult PesquisarPorNome(string nome)
+		public IActionResult PesquisarPorCliente(string nome)
 		{
 
 			var cliente = from c in _context.Cliente
 						  where c.Nome == nome
 						  select c;
 			return View(cliente.ToList());
+		}
+
+
+
+		public IActionResult PesquisarPorVendedor(string nome)
+		{
+
+			var vendedor = from v in _context.Vendedor
+						   where v.Nome == nome
+						   select v;
+			return View(vendedor.ToList());
 		}
 
 

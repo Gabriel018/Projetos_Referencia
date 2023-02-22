@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Prover_Web.Models.Vendedor>
+
+<h3 style="align-items:center">Pesquisa de ativos </h3>
+
+<form asp-controller="Relatorios" asp-action="PesquisarPorVendedor">
+	<input type="text" name="nome" placeholder="Digite seu nome ">
+	<input class="btn btn-dark" type="submit" value="Pesquisar">
+</form>
+<br>
+<table class="table table-dark table-striped">
+	<thead>
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.Nome)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Cpf)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Telefone)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Descricao)
+			</th>
+
+			<th>
+				@Html.DisplayNameFor(model => model.Categoria)
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+  <tbody>
+			@foreach (var item in Model)
+			{
+				<tr>
+				<td>@item.Nome</td>
+				<td>@item.Cpf</td>
+				<td>@item.Telefone</td> 
+				<td>@item.Descricao</td>
+				<td>@item.Categoria</td>
+				<td>
+				<a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+				<a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+				<a asp-action="Delete" asp-route-id="@item.Id">Deletar</a>
+				</td>
+				</tr>
+			}
+	</tbody>
+</table>
+<div>
+<a  class="btn btn-dark" asp-controller="Menu_Adm"asp-action="Index">Voltar</a>
+</div>

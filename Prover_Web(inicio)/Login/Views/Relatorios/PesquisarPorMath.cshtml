@@ -13,6 +13,7 @@
             <th>Vendedor</th>
             <th>Esperiencia</th>
             <th>Perfil</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -22,8 +23,10 @@
                            
                         <td>@item.Vendedor.Nome</td>
                         <td>@item.Vendedor.Descricao</td>
-                         <td><a class="btn btn-success" href="@Url.Action("Details", "Vendedors", new {id = item.Vendedor.Id})"></a></td>
+                         <td>Perfil<a class="btn btn-success" href="@Url.Action("Details", "Vendedors", new {id = item.Vendedor.Id})"></a></td>
+                          <td><button>Notificar vendedor</button></td>
                     </tr>
         }
     </tbody>
+    
 </table>

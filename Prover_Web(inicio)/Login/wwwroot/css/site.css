@@ -199,10 +199,8 @@ body
 
 
 .footer-container {
-    gap:20px;
     display:flex;
-    justify-content:right;
-    justify-items:baseline;
+    justify-content:space-around;
     background-color: rgb(33,37,41);
     padding: 100px;
     width: 100%
@@ -215,6 +213,7 @@ body
 }
 
 
-.footer-rede{
-
+.footer-links {
+    display:flex;
+    flex-direction:column;
 }

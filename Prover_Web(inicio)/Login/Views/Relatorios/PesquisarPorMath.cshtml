@@ -24,9 +24,22 @@
                         <td>@item.Vendedor.Nome</td>
                         <td>@item.Vendedor.Descricao</td>
                          <td>Perfil<a class="btn btn-success" href="@Url.Action("Details", "Vendedors", new {id = item.Vendedor.Id})"></a></td>
-                          <td><button>Notificar vendedor</button></td>
+                             <td><button class="text-success"  id="notific" onclick="modall()">Notificar vendedor</button></td>
                     </tr>
         }
     </tbody>
     
 </table>
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 class="font-modal-titulo" >Personal Style Notificado</h2>
+    <p class="font-modal">Ele recebera sua notificaçao e entrara em contato parabens!!!</p>
+  </div>
+
+</div>
+
+

@@ -11,6 +11,7 @@
     <PackageReference Include="IBM.Watson.Assistant.v2" Version="6.1.0" />
     <PackageReference Include="jQuery.Mask" Version="1.14.16" />
     <PackageReference Include="maskInput" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="7.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.2" />

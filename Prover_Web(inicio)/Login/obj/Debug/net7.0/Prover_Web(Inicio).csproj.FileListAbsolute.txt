@@ -853,3 +853,10 @@ C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\bin\Debug\net7
 C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\bin\Debug\net7.0\JsonSubTypes.dll
 C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\bin\Debug\net7.0\JWT.dll
 C:\Users\Duke\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+C:\Users\Usuario\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\bin\Debug\net7.0\IBM.Cloud.SDK.Core.dll
+C:\Users\Usuario\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\bin\Debug\net7.0\IBM.Watson.Assistant.v2.dll
+C:\Users\Usuario\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\bin\Debug\net7.0\IBM.Watson.Common.dll
+C:\Users\Usuario\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\bin\Debug\net7.0\JsonSubTypes.dll
+C:\Users\Usuario\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\bin\Debug\net7.0\JWT.dll
+C:\Users\Usuario\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+C:\Users\Usuario\Desktop\Personal_Style_Web\Prover_Web(inicio)\Login\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Google.dll

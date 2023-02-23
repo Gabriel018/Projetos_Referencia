@@ -22,18 +22,20 @@
             <a asp-area="" asp-controller="QuemSomos" class="navbar-brand" asp-action="Index">Quem Somos</a>
             <a asp-area="" asp-controller="Estilos" class="navbar-brand" asp-action="Index">Estilos</a>
             <a asp-area="" asp-controller="Planos" class="navbar-brand" asp-action="Index">planos</a>
-
+            
             <div class="navbar navbar-dark bg-dark">
                 <a class="navbar-brand" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     Meu Menu
+
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonDark">
                     <li><a class="dropdown-item" asp-controller="Clientes" asp-action="Menu">Sou Cliente</a></li>
                     <li><a class="dropdown-item" asp-controller="Home" asp-action="Index">Dicas</a></li>
                     <li><a class="dropdown-item" asp-controller="Home" asp-action="Index">Novidades</a></li>
                 </ul>
                 <a asp-area="" asp-controller="Menu_Adm" class="navbar-brand" asp-action="Index">Admin</a>
                 <partial name="_LoginPartial" />
+                    
             </div>
         </nav>
 
@@ -47,14 +49,32 @@
     <div class="container">
         <div class="whapp">
             <a class="whapp" href="https://api.whatsapp.com/send?phone=5521993049717&text=Texto%20aqui"><img src="img/whap.png" width="60" height="60" class="img_icon_whapp" alt=""></a>
-
         </div>
         <main role="main" class="pb-5">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="footer-container">
+
+
+
+            <div class="footer-rede">
+             <h5 class="font-modal-titulo"> Nossas redes socias</h5>
+                <a href="https://pt-br.facebook.com/"><img src="~/img/iconface.png" width="40" height="40" /></a>
+                <a href="https://www.instagram.com/"><img src="~/img/iconInstragram.png" width="50" height="50" /></a>
+                <a href="https://twitter.com/login?lang=pt"><img src="~/img/icontw.png" width="40" height="40" /></a>
+                <a href="https://www.tiktok.com/foryou"><img src="~/img/icontiktok.png" width="40" height="40" /></a>
+            
+
+            </div>
+            <div class="footer-contato">
+                <h5 class="font-modal-titulo">Formas de pagamento</h5>
+                <img src="~/img/formasdepagamentovolk.webp"  />
+                <span class="text-muted">Contate nossa equipe:<a href="mailto:suporte@proverstyle.com.br">suporte@proverstyle.com.br</a></span>
+            </div>
+
+        </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

@@ -28,10 +28,25 @@ namespace Login.Controllers
 						  select c;
 			return View(cliente.ToList());
 		}
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null || _context.Vendedor == null)
+            {
+                return NotFound();
+            }
+
+            var vendedor = await _context.Vendedor
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (vendedor == null)
+            {
+                return NotFound();
+            }
+
+            return View(vendedor);
+        }
 
 
-
-		public IActionResult PesquisarPorVendedor(string nome)
+        public IActionResult PesquisarPorVendedor(string nome)
 		{
 
 			var vendedor = from v in _context.Vendedor

@@ -1,0 +1,15 @@
+C:\Users\Duke\Desktop\AppCompleto\src\WebAppCompleto.Data\bin\Debug\net5.0\WebAppCompleto.Data.deps.json
+C:\Users\Duke\Desktop\AppCompleto\src\WebAppCompleto.Data\bin\Debug\net5.0\WebAppCompleto.Data.dll
+C:\Users\Duke\Desktop\AppCompleto\src\WebAppCompleto.Data\bin\Debug\net5.0\ref\WebAppCompleto.Data.dll
+C:\Users\Duke\Desktop\AppCompleto\src\WebAppCompleto.Data\bin\Debug\net5.0\WebAppCompleto.Data.pdb
+C:\Users\Duke\Desktop\AppCompleto\src\WebAppCompleto.Data\bin\Debug\net5.0\WebAppCompleto.Businnes.dll
+C:\Users\Duke\Desktop\AppCompleto\src\WebAppCompleto.Data\bin\Debug\net5.0\WebAppCompleto.Businnes.pdb
+C:\Users\Duke\Desktop\AppCompleto\src\WebAppCompleto.Data\obj\Debug\net5.0\WebAppCompleto.Data.csproj.AssemblyReference.cache
+C:\Users\Duke\Desktop\AppCompleto\src\WebAppCompleto.Data\obj\Debug\net5.0\WebAppCompleto.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Duke\Desktop\AppCompleto\src\WebAppCompleto.Data\obj\Debug\net5.0\WebAppCompleto.Data.AssemblyInfoInputs.cache
+C:\Users\Duke\Desktop\AppCompleto\src\WebAppCompleto.Data\obj\Debug\net5.0\WebAppCompleto.Data.AssemblyInfo.cs
+C:\Users\Duke\Desktop\AppCompleto\src\WebAppCompleto.Data\obj\Debug\net5.0\WebAppCompleto.Data.csproj.CoreCompileInputs.cache
+C:\Users\Duke\Desktop\AppCompleto\src\WebAppCompleto.Data\obj\Debug\net5.0\WebAppCompleto.Data.csproj.CopyComplete
+C:\Users\Duke\Desktop\AppCompleto\src\WebAppCompleto.Data\obj\Debug\net5.0\WebAppCompleto.Data.dll
+C:\Users\Duke\Desktop\AppCompleto\src\WebAppCompleto.Data\obj\Debug\net5.0\ref\WebAppCompleto.Data.dll
+C:\Users\Duke\Desktop\AppCompleto\src\WebAppCompleto.Data\obj\Debug\net5.0\WebAppCompleto.Data.pdb
